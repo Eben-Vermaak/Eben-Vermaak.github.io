@@ -112,7 +112,7 @@ body {
     transition: none !important; }
   body > * {
     position: relative;
-    z-index: 2; }
+    z-index: 3; }
   @media screen and (max-width: 1680px) {
     body {
       padding: 6em 3.5em 3.5em 3.5em; } }
@@ -158,7 +158,7 @@ body {
       visibility: visible;
       z-index: 1; }
       #bg div.visible.top {
-        z-index: 2; }
+        z-index: 3; }
       @media screen and (max-width: 1280px) {
         #bg div.visible {
           -moz-animation: bg 29.25s linear infinite;
