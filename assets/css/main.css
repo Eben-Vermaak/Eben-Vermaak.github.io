@@ -892,9 +892,9 @@ button,
   right: 0;
   width: 50%;            
   height: 100%;
-  z-index: 3;           
+  z-index: 2;           
 
-  background-image: url('images/bg04_gear.png');
+  background-image: url('../../images/bg04_gear.png');
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
