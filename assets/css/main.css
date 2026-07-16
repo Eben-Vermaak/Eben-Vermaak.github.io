@@ -885,3 +885,21 @@ button,
       left: auto;
       margin: 1em 0 0 0;
       position: relative; } }
+
+.gears-bg {
+  position: fixed;      
+  top: 0;
+  right: 0;
+  width: 50%;            
+  height: 100%;
+  z-index: -1;           
+
+  background-image: url('images/bg04_gear.png');
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+
+  /* This is the fade: opaque on the right, transparent on the left */
+  -webkit-mask-image: linear-gradient(to left, black 0%, transparent 100%);
+  mask-image: linear-gradient(to left, black 0%, transparent 100%);
+}
