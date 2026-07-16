@@ -892,7 +892,7 @@ button,
   right: 0;
   width: 50%;            
   height: 100%;
-  z-index: 0;           
+  z-index: 1;           
 
   background-image: url('images/bg04_gear.png');
   background-size: cover;
