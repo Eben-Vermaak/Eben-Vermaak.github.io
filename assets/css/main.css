@@ -890,8 +890,8 @@ button,
   position: fixed;      
   top: 0;
   right: 0;
-  width: 100%;            
-  height: auto;
+  width: 80%;            
+  height: 140%;
   z-index: 2;           
 
   background-image: url('../../images/bg04_gear.png');
